@@ -1,0 +1,19 @@
+{
+  "name": "pi-aiand",
+  "version": "1.0.0",
+  "description": "ai& inference provider for pi coding agent",
+  "type": "module",
+  "keywords": ["pi-package", "pi-extension", "aiand", "llm-provider"],
+  "homepage": "https://aiand.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pghqdev/pi-aiand.git"
+  },
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
